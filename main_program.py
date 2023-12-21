@@ -1,7 +1,7 @@
-from infrastructure.importation import importation
+from infrastructure.importation import load_data
 from preparation.transfo import *
 
-data = importation()
+data = load_data()
 
 data = drop_na(data)
 data = borne_age(data)

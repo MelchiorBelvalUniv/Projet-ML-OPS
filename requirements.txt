@@ -1,0 +1,14 @@
+pandas==1.5.3
+jupyter_client==8.6.0	
+jupyterlab==4.0.9
+jupyter_core==5.5.0
+jupyter_server==2.12.1
+matplotlib==3.8.2
+notebook==7.0.0
+numpy==1.26.2
+ipykernel==8.18.1
+jupyter==1.0.0
+jupytext==1.14.1
+pytest==7.3.0
+pytest-cov==4.1.0
+python-dotenv==1.0.0

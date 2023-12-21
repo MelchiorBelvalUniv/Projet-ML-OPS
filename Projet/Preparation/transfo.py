@@ -1,5 +1,7 @@
 import pandas as pd
 
+pd.options.mode.chained_assignment = None  # default='warn'
+
 def drop_na(donnees) :
     """On retire les valeurs manquantes du jeu.
 

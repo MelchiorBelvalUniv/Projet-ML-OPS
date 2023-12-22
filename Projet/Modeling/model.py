@@ -10,7 +10,7 @@ def fit_logistic_regression(X_train, y_train) :
         y_test (DataFrame): Les valeurs de la variables à expliquer pour comparer les résultats sur le test
 
     Returns:
-        _type_: Prédiction sur le jeu de données
+        Frame: Prédiction sur le jeu de données
     """    
 
     logit = LogisticRegression(C = 0.1, penalty = 'l2', solver = 'newton-cg')
@@ -23,7 +23,7 @@ def predict_logistic_regression(logit, X_test) :
 
     Args:
         logit (_type_): _description_
-        X_test (_type_): _description_
+        X_test (DataFrame): Les valeurs des variables pour tester le modèle
 
     Returns:
         _type_: Prédictions

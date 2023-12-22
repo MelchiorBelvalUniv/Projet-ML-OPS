@@ -8,4 +8,4 @@ Equipe composé de :
 - TONNOIR Jules
 
 
-Projet sur 
+Projet sur la prédiction des salaires d'une personne habitant aux États-Unis.

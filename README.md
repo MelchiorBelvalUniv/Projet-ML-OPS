@@ -1,6 +1,6 @@
 # Projet-ML-OPS
 
-Equipe composé de : 
+Equipe composée de : 
 
 - MARTINACHE Julien
 - BELVAL Melchior

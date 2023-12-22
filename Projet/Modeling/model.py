@@ -4,10 +4,10 @@ def fit_logistic_regression(X_train, y_train) :
     """Fitting du modèle sur les données d'apprentissage et de test
 
     Args:
-        X_train (_type_): _description_
-        X_test (_type_): _description_
-        y_train (_type_): _description_
-        y_test (_type_): _description_
+        X_train (DataFrame): Les valeurs des variables pour entrainer le modèle
+        X_test (DataFrame): Les valeurs des variables pour tester le modèle
+        y_train (DataFrame): Les valeurs de la variables à expliquer pour comparer les résultats sur l'entrainement
+        y_test (DataFrame): Les valeurs de la variables à expliquer pour comparer les résultats sur le test
 
     Returns:
         _type_: Prédiction sur le jeu de données

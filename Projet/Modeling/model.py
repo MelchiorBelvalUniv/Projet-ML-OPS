@@ -22,7 +22,7 @@ def predict_logistic_regression(logit, X_test) :
     """On reprend le modèle précédemment entrainé et on le test
 
     Args:
-        logit (_type_): _description_
+        logit (model): Modèle de régression logistique
         X_test (DataFrame): Les valeurs des variables pour tester le modèle
 
     Returns:

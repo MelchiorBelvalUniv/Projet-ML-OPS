@@ -104,7 +104,7 @@ def regroupement(donnees) :
     # Education
     donnees['education'][(donnees['education'] == " 11th") | (donnees['education'] == " HS-grad") | (donnees['education'] == " Some-college")| (donnees['education'] == " 9th") | (donnees['education'] == " 7th-8th") | (donnees['education'] == " 12th") | (donnees['education'] == " 5th-6th") | (donnees['education'] == " Preschool") | (donnees['education'] == " 1st-4th")| (donnees['education'] == " 10th")] = "primaire_secondaire"
     donnees['education'][(donnees['education'] == " Bachelors") | (donnees['education'] == " Masters") | (donnees['education'] == " Doctorate")  | (donnees['education'] == " Prof-school")] = "niveau_superieur"
-
+    donnees['education'][(donnees['education'] == " Assoc-acdm") | (donnees['education'] == " Assoc-voc") ] = "niveau_intermediaire"
     #Marital-Status
     donnees['marital-status'][(donnees['marital-status'] == " Married-civ-spouse") | (donnees['marital-status'] == " Never-married") | (donnees['marital-status'] == " Married-spouse-absent")  | (donnees['marital-status'] == " Married-AF-spouse")] = "married"
 

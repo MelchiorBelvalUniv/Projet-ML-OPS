@@ -10,7 +10,7 @@ def fit_logistic_regression(X_train, y_train) :
         y_test (DataFrame): Les valeurs de la variables à expliquer pour comparer les résultats sur le test
 
     Returns:
-        Model: Modèle de régression logistique
+        Model: Modèle de régression logistique entrainé
     """    
 
     logit = LogisticRegression(C = 0.1, penalty = 'l2', solver = 'newton-cg')
